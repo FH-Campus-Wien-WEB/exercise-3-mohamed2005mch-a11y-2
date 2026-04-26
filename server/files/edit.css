@@ -1,0 +1,59 @@
+@import url(base.css);
+
+body {
+  color: white;
+}
+
+form {
+  background-color: #141414;
+  padding: 24px;
+  border-radius: 8px;
+  margin: 32px auto;
+  max-width: 700px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  background-color: #3a3a3a;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 6px 8px;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #999;
+}
+
+div {
+  margin: 12px 0px;
+}
+
+#genre-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+  min-height: 28px;
+}
+
+.genre-badge {
+  background-color: #595858;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
